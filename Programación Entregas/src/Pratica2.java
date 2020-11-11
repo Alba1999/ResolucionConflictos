@@ -8,6 +8,8 @@ public class Pratica2 {
         
         /*Cambio en carpetaCasa en la misma linea*/
 
+        /*Misma linea mismo contenido*/
+
 
         int num1 = sc.nextInt();
         if (num1 >= 0) {
