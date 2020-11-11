@@ -6,6 +6,8 @@ public class Pratica2 {
 
         System.out.println("Cambio para git en carpetaCasa");
 
+        /*Cambio en carpetaInstituto en la misma linea*/
+
         int num1 = sc.nextInt();
         if (num1 >= 0) {
             System.out.println(" ");
