@@ -4,6 +4,8 @@ public class Pratica2 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce el primer número entero");
 
+        System.out.println("Cambio para git en carpetaCasa");
+
         int num1 = sc.nextInt();
         if (num1 >= 0) {
             System.out.println(" ");
