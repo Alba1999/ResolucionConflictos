@@ -5,8 +5,9 @@ public class Pratica2 {
         System.out.println("Introduce el primer número entero");
 
         System.out.println("Cambio para git en carpetaCasa");
+        
+        /*Cambio en carpetaCasa en la misma linea*/
 
-        /*Cambio en carpetaInstituto en la misma linea*/
 
         int num1 = sc.nextInt();
         if (num1 >= 0) {
