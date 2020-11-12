@@ -15,7 +15,7 @@ realizamos un cambio en el mismo documento (pero con diferente contenido). En ca
 *`git push origin marter`*. Para tener los cambios usamos el comando *`git pull origin master`* y aparece el último error en el merge porque Git tiene dos cambios. Realizamos 
 el cambio en 1 carpeta y lo añadimos con *`git add./*`*, por último *`git commit -m`* y lo subimos al repositorio remoto.
 
-![Conflicto_misma_linea.png](/ResolucionConflictos/ProgramacionEntregas/Img/Conflicto_misma_linea.png)
+![Conflicto_misma_linea.png](/ProgramacionEntregas/Img/Conflicto_misma_linea.png)
 ![Conflicto_mlinea_mcontenido.png](/ResolucionConflictos/ProgramacionEntregas/Img/)
 ![Conflicto_misma_linea_visualizacion.png](/ResolucionConflictos/ProgramacionEntregas/Img/)
 ![Conflicto_remoto.png](/ResolucionConflictos/ProgramacionEntregas/Img/)
