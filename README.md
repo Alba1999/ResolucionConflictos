@@ -7,7 +7,7 @@ y intentamos subirlo al repo remoto. En este caso aparece el primer error y lo s
 2. Realizamos un *`git pull origin master`* en carpetaCasa para tener los mismos cambios en ambas carpetas y se realiza un cambio. Realizamos el mismo cambio en la misma linea en
 carpetaInstituto. Desde carpetaCasa *`git add ./*`*, posteriormente *`git commit -m`* y un *`push origin master`*, desde carpetaInstituto escribimos la misma serie de comandos 
 *`git add ./*`*, *`git commit -m`*, *`git push origin master`* y nos salta el segundo error, para solucionarlo realizamos un *`git pull origin master`*, *`merge`* para fusionar y un 
-*`git pull origin master`* para subir lo cambios.
+*`git push origin master`* para subir lo cambios.
 
 
 3. Realizamos un *`git pull origin master`* en carpetaCasa para tener los mismos cambios en ambas carpetas y se realiza un cambio, desde la carpetaInstituto 
