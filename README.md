@@ -13,7 +13,7 @@ carpetaInstituto. Desde carpetaCasa *`git add ./*`*, posteriormente *`git commit
 3. Realizamos un *`git pull origin master`* en carpetaCasa para tener los mismos cambios en ambas carpetas y se realiza un cambio, desde la carpetaInstituto 
 realizamos un cambio en el mismo documento (pero con diferente contenido). En cada Bash realizamos la siguiente serie de comandos: *`git add ./*`*, *`git commit -m`*
 *`git push origin marter`*. Para tener los cambios usamos el comando *`git pull origin master`* y aparece el último error en el merge porque Git tiene dos cambios. Realizamos 
-el cambio en 1 carpeta y lo añadimos con *`git add,/*`* y por último *`git commit -m`*.  
+el cambio en 1 carpeta y lo añadimos con *`git add./*`* y por último *`git commit -m`*.  
 
 ![Conflicto_misma_linea.png](/ResolucionConflictos/Programación%20Entregas/Img/)
 ![Conflicto_mlinea_mcontenido.png](/ResolucionConflictos/Programación%20Entregas/Img/)
