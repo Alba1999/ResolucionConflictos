@@ -16,7 +16,7 @@ realizamos un cambio en el mismo documento (pero con diferente contenido). En ca
 el cambio en 1 carpeta y lo añadimos con *`git add./*`*, por último *`git commit -m`* y lo subimos al repositorio remoto.
 
 ![Conflicto_misma_linea.png](/ProgramacionEntregas/Img/Conflicto_misma_linea.png)
-![Conflicto_mlinea_mcontenido.png](/ProgramacionEntregas/Img/)
-![Conflicto_misma_linea_visualizacion.png](/ProgramacionEntregas/Img/)
-![Conflicto_remoto.png](/ProgramacionEntregas/Img/)
-![Resolucion_mlinea_mcontenido.png](/ProgramacionEntregas/Img/)
+![Conflicto_mlinea_mcontenido.png](/ProgramacionEntregas/Img/Conflicto_misma_linea_visualizacion.png)
+![Conflicto_misma_linea_visualizacion.png](/ProgramacionEntregas/Img/Conflicto_mlinea_mcontenido.png)
+![Conflicto_remoto.png](/ProgramacionEntregas/Img/Conflicto_remoto.png)
+![Resolucion_mlinea_mcontenido.png](/ProgramacionEntregas/Img/Resolucion_mlinea_mcontenido.png)
