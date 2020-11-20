@@ -54,8 +54,7 @@ el cambio en 1 carpeta y lo añadimos con *`git add./*`*, por último *`git comm
 ![Git_Pull_Tag.png](/ProgramacionEntregas/capturas/Git_Pull_Tag.png)
 
 
-4. Para poder tener los cambios en carpetaInstituto realizamos un *`git push origin master` 
-4. Para poder tener los cambios en carpetaInstituto realizamos un *`git push origin master`.
+4. Para poder tener los cambios en carpetaInstituto realizamos un *`git push origin master`*.
 
 
 ![Git_Push_Tag.png](/ProgramacionEntregas/capturas/Git_Push_Tag.png)
