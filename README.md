@@ -31,30 +31,31 @@ el cambio en 1 carpeta y lo añadimos con *`git add./*`*, por último *`git comm
 # P02-40 Git tags, localizar versiones
 
 
-1. Creamos un tag con el comando `git tag -a v1.0`.
+1. Creamos un tag con el comando *`git tag -a v1.0`*.
 
 
 ![Git_Tag.png](/ProgramacionEntregas/capturas/Git_tag.png)
 
 
-2. Recuperamos la versión anterior del commit con el comando `git checkout` y realizamos un commit `git commit -m`.
+2. Recuperamos la versión anterior del commit con el comando *`git checkout`* y realizamos un commit *`git commit -m`*.
 
 
 ![Git_checkout.png](/ProgramacionEntregas/capturas/Git_checkout.png)
 
 
-(Aqui se muestra con un `git log` el cambio en el repo local)
+(Aqui se muestra con un *`git log`* el cambio en el repo local)
 
 ![Git_commit.png](/ProgramacionEntregas/capturas/Git_commit.png)
 
 
-3. Lo subimos al repo remoto con un `git pull origin master`
+3. Lo subimos al repo remoto con un *`git pull origin master`*.
 
 
 ![Git_Pull_Tag.png](/ProgramacionEntregas/capturas/Git_Pull_Tag.png)
 
 
-4. Para poder tener los cambios en carpetaInstituto realizamos un `git push origin master` 
+4. Para poder tener los cambios en carpetaInstituto realizamos un *`git push origin master` 
+4. Para poder tener los cambios en carpetaInstituto realizamos un *`git push origin master`.
 
 
 ![Git_Push_Tag.png](/ProgramacionEntregas/capturas/Git_Push_Tag.png)
