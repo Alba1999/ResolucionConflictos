@@ -96,7 +96,7 @@ el cambio en 1 carpeta y lo añadimos con *`git add./*`*, por último *`git comm
 ![merge_rama2.png](/capturas/merge_rama2.png)
 
 
-5. Por último escribimos el comando *`git log --graph --oneline --decorate --all`* que no muestra un gráfico de los cambios realizados en el repo local 
+5. Por último escribimos el comando *`git log --graph --oneline --decorate --all`* que nos muestra un gráfico de los cambios realizados en el repo local 
 
 
 ![grafico_grande.png](/capturas/grafico_grande.png)
