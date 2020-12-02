@@ -28,6 +28,7 @@ el cambio en 1 carpeta y lo añadimos con *`git add./*`*, por último *`git comm
 
 
 
+
 # P02-40 Git tags, localizar versiones
 
 
@@ -58,3 +59,56 @@ el cambio en 1 carpeta y lo añadimos con *`git add./*`*, por último *`git comm
 
 
 ![Git_Push_Tag.png](/ProgramacionEntregas/capturas/Git_Push_Tag.png)
+
+
+
+
+# P02-50 Git trabajo con ramas
+
+
+1. Creamos una rama con el comando *`git branch <nombre de la rama>.`* en carpetaCasa, realizamos unos cambios y lo subimos al repo remoto con la siguiente serie de comandos: *`git add ./*`*  después *`git commit -m " "`* y por útimo un *`git push <nombre de la rama anteriormente creada>`*.
+
+
+![creacion_rama2.png](/capturas/creacion_rama2.png)
+
+
+2. Desde la rama master se realizan varios cambios y se suben al repo remoto.
+
+
+![cambios_rama2.png](/capturas/cambios_rama2.png)
+
+
+3. Bajamos todas la ramas con el comando *`git pull`* y para ver los cambios de rama usamos el comando *`git checkout <nombre de la rama>`* que nos permite movernos entre las ramas y sacamos el registro con *`git log`* (este paso lo realizamos en la rama master y en rama2).
+
+
+![copiar_rama_remota_en_local.png](/capturas/copiar_rama_remota_en_local.png)
+
+
+![historico_rama_master.png](/capturas/historico_rama_master.png)
+
+
+![historico_rama2.png](/capturas/historico_rama2.png)
+
+
+4. Desde la rama master realizamos un *`git merge`* y la subimos al repo remoto
+
+
+![merge_rama2.png](/capturas/merge_rama2.png)
+
+
+5. Por último escribimos el comando *`git log --graph --oneline --decorate --all`* que nos muestra un gráfico de los cambios realizados en el repo local 
+
+
+![grafico_grande.png](/capturas/grafico_grande.png)
+
+
+(en la siguiente captura se muestran los cambios realizados durante la realización de la práctica ya que el comando nos muestra todos)
+
+
+![grafico_trabajo_con_ramas.png](/capturas/grafico_trabajo_con_ramas.png)
+
+
+(en la siguiente captura se muestra el gráfico que incluye GitHub desde Insights y dentro en la pestaña de Network)
+
+
+![grafico_github.png](/capturas/grafico_github.png)
