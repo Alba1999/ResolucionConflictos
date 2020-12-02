@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Práctica Bootstrap Grid</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">Práctica de Bootstrap Grid</h1>
+
+    <h4> Tipos de container </h4>
+
+<div class="container bg-success">
+    <p class="font-weight-bold mb-0">.container</p>
+    <p class="small"> Fondo color éxito (bg-success) </p>
+</div>
+
+<div class="container-fluid bg-danger text-white">
+    <p class="font-weight-bold mb-0">.container-fluid </p> 
+    <p class="small"> Fondo color peligro (bg-danger), texto blanco (text-white) </p>       
+</div>
+
+<div>
+<h4>Sistema Grid</h4>
+    <div class="row">
+        <div class="col-4 bg-success">
+            <p class="font-weight-bold mb-0"> Columna 1 </p>
+            <p class="small"> Lorem ipsum dolor sit amet consectetur adipiscing elit. </p>
+        </div>
+    
+        <div class="col-4 bg-warning">
+            <p class="font-weight-bold mb-0"> Columna 2 </p>
+            <p class="small"> Fondo color aviso (bg-warning) </p>
+        </div>
+        
+        <div class="col-4 bg-danger">
+            <p class="font-weight-bold mb-0"> Columna 3 </p>
+            <p class="small"> Lorem ipsum dolor sit amet consectetur adipiscing elit </p>
+        </div>
+    </div>
+
+</div>
+
+<div>
+    <h4>Tamaño y ubicación columnas: clases offset-*</h4>
+    <div class="row">
+        <div class="col-4 bg-success">
+            <p class="font-weight-bold mb-0"> Columna 1 </p>
+            <p class="small"> Columna tamaño 4 </p>
+        </div>
+        
+        <div class="col-4 bg-danger offset-4">
+            <p class="font-weight-bold mb-0"> Columna 2 </p>
+            <p class="small"> Columna tamaño 4 y offset 4 </p>
+        </div>
+    </div>    
+</div>
+
+<div>
+    <h4>Reordenar columnas: clases order-*</h4>
+    <div class="row">
+        <div class="col-8 bg-success order-lg-4 order-8">
+            <p class="font-weight-bold mb-0"> Columna 2 </p>
+            <p class="small"> Columna reordenada cuando pantalla grande col-8 y order-lg-4 </p>
+        </div>
+        <div class="col-4 bg-warning order-lg-8 order-4 mb-0">
+            <p class="font-weight-bold"> Columna 1 </p>
+            <p class="small"> Columna reordenada cuando pantalla grande col-4 y order-lg-8 </p>
+        </div>
+    </div>    
+</div>
+
+<div>
+    <h4>Columnas hidden: clases display d-*</h4>
+    <div class="row">
+        <div class="col-12 bg-success col-sm-6 col-md-4">
+            <p class="font-weight-bold mb-0"> Columna 1 </p>
+            <p class="small">Siempre visible</p>
+
+        </div>
+    
+        <div class="col-4 bg-warning d-none d-sm-block col-sm-6 col-md-4">
+            <p class="font-weight-bold mb-0"> Columna 2 </p>
+            <p class="small"> Se ocultará cuando tamaño menor de sm (móvil) "d-none d-sm-block" </p>
+        </div>
+        
+        <div class="col-4 bg-danger d-none d-md-block">
+            <p class="font-weight-bold mb-0"> Columna 3 </p>
+            <p class="small"> Se ocultará cuando tamaño menor de sm (tablet) "d-none d-md-block"</p>
+    </div>    
+</div>
+
+</body>
+</html>
